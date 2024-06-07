@@ -1,0 +1,82 @@
+{
+  "itemGroup.farmersplus": "Farmer's Plus",
+
+  "block.farmersplus.apple_bag": "リンゴの収穫袋",
+  "block.farmersplus.brown_mushroom_bag": "茶色のキノコの収穫袋",
+  "block.farmersplus.cocoa_bean_bag": "カカオ豆の収穫袋",
+  "block.farmersplus.crimson_fungus_bag": "真紅のキノコの収穫袋",
+  "block.farmersplus.glow_berry_bag": "グロウベリーの収穫袋",
+  "block.farmersplus.golden_apple_bag": "金のリンゴの収穫袋",
+  "block.farmersplus.red_mushroom_bag": "赤色のキノコの収穫袋",
+  "block.farmersplus.sweet_berry_bag": "スイートベリーの収穫袋",
+  "block.farmersplus.warped_fungus_bag": "歪んだキノコの収穫袋",
+
+  "block.farmersplus.egg_box": "卵パック",
+  "block.farmersplus.golden_carrot_crate": "金のニンジン入り木箱",
+  "block.farmersplus.kelp_block": "コンブブロック",
+  "block.farmersplus.sugar_cane_bale": "サトウキビの束",
+
+  "block.farmersplus.canvas_block": "キャンバスブロック",
+  "block.farmersplus.framed_canvas_block": "フレーム付きキャンバスブロック",
+
+  "block.farmersplus.canvas_chest": "キャンバスのチェスト",
+  "block.farmersplus.crate": "木箱",
+  "block.farmersplus.drying_rack": "乾燥棚",
+  "block.farmersplus.millstone": "石臼",
+  "block.farmersplus.tray": "トレー",
+
+  "item.farmersplus.bread_crumb": "パン粉",
+  "item.farmersplus.rice_flour": "米粉",
+  "item.farmersplus.wheat_flour": "小麦粉",
+  "item.farmersplus.lard_bottle": "ラード入り瓶",
+  "item.farmersplus.lard_bucket": "ラード入りバケツ",
+
+  "item.farmersplus.apple_slice": "リンゴのスライス",
+  "item.farmersplus.golden_apple_slice": "金のリンゴのスライス",
+  "item.farmersplus.dried_apple_slice": "干しリンゴ",
+  "item.farmersplus.dried_golden_apple_slice": "金の干しリンゴ",
+  "item.farmersplus.dried_beef": "牛の干し肉",
+  "item.farmersplus.dried_chicken": "鶏の干し肉",
+  "item.farmersplus.dried_cod_slice": "鱈の干物",
+  "item.farmersplus.dried_mutton": "羊の干し肉",
+  "item.farmersplus.dried_porkchop": "豚の干し肉",
+  "item.farmersplus.dried_rabbit": "兎の干し肉",
+  "item.farmersplus.dried_salmon_slice": "鮭の干物",
+  "item.farmersplus.boiled_egg": "ゆで卵",
+
+  "item.farmersplus.minced_chicken": "鶏ひき肉",
+  "item.farmersplus.minced_pork": "豚ひき肉",
+  "item.farmersplus.cooked_minced_chicken": "鶏そぼろ",
+  "item.farmersplus.pork_patty": "ポークパティ",
+
+  "item.farmersplus.chicken_nugget": "チキンナゲット",
+  "item.farmersplus.korokke": "コロッケ",
+  "item.farmersplus.fried_holy_basil": "ガパオライス",
+  "item.farmersplus.salisbury_steak": "ハンバーグ",
+
+  "item.farmersplus.tomato_juice": "トマトジュース",
+
+  "farmersplus.container.crate": "木箱",
+  "farmersdelight.block.millstone.invalid_item": "ただ回しているだけだ…",
+  "farmersdelight.jei.drying": "乾燥",
+  "farmersdelight.jei.milling": "製粉",
+
+  "config.farmersplus.general_settings": "基本設定",
+  "config.farmersplus.general_settings.enable_storages": "バニラの材料の圧縮ブロックを有効にする",
+  "config.farmersplus.storages": "圧縮ブロック",
+  "config.farmersplus.storages.enable_apple_bag": "リンゴの収穫袋を有効にする",
+  "config.farmersplus.storages.enable_brown_mushroom_bag": "茶色のキノコの収穫袋を有効にする",
+  "config.farmersplus.storages.enable_cocoa_bean_bag": "カカオ豆の収穫袋を有効にする",
+  "config.farmersplus.storages.enable_crimson_fungus_bag": "真紅のキノコの収穫袋を有効にする",
+  "config.farmersplus.storages.enable_egg_box": "卵パックを有効にする",
+  "config.farmersplus.storages.enable_glow_berry_bag": "グロウベリーの収穫袋を有効にする",
+  "config.farmersplus.storages.enable_golden_apple_bag": "金のリンゴの収穫袋を有効にする",
+  "config.farmersplus.storages.enable_golden_carrot_crate": "金のニンジン入り木箱を有効にする",
+  "config.farmersplus.storages.enable_kelp_block": "コンブブロックを有効にする",
+  "config.farmersplus.storages.enable_red_mushroom_bag": "赤色のキノコの収穫袋を有効にする",
+  "config.farmersplus.storages.enable_sugar_cane_bale": "サトウキビの束を有効にする",
+  "config.farmersplus.storages.enable_sweet_berry_bag": "スイートベリーの収穫袋を有効にする",
+  "config.farmersplus.storages.enable_warped_fungus_bag": "歪んだキノコの収穫袋を有効にする",
+
+  "fluid.farmersplus.lard": "ラード"
+}

@@ -1,0 +1,6 @@
+// 1.20.1	2024-06-07T11:18:11.8405862	Tags for minecraft:block mod id farmersplus
+4ba0828b55e704bec44915b783934075fc812e00 data/farmersdelight/tags/blocks/mineable/knife.json
+4ba0828b55e704bec44915b783934075fc812e00 data/farmersdelight/tags/blocks/straw_blocks.json
+29c4aba482066177145dcfc4004fe68ca3e86ba8 data/minecraft/tags/blocks/mineable/axe.json
+176754a2f097488b74c6ee4d3dccfc17ba97ebfd data/minecraft/tags/blocks/mineable/hoe.json
+0c6e56b1a005112a8c626498d15fcd01b11810fe data/minecraft/tags/blocks/mineable/pickaxe.json

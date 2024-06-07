@@ -1,0 +1,34 @@
+[076月2024 14:40:08.274] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\shiro\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.2.32, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, farmersplus, --all, --output, C:\Users\shiro\Desktop\自分用\自作mod\Farmer's Plus\src\generated\resources, --existing, C:\Users\shiro\Desktop\自分用\自作mod\Farmer's Plus\src\main\resources, --mixin.config, farmersplus.mixins.json]
+[076月2024 14:40:08.279] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by JetBrains s.r.o.; OS Windows 11 arch amd64 version 10.0
+[076月2024 14:40:08.458] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[076月2024 14:40:08.539] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/shiro/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[076月2024 14:40:08.854] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\shiro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.2.32\9d7e04e58b558bf95759e2d94b77944a0845d1cb\javafmllanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[076月2024 14:40:08.858] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\shiro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.2.32\38d24291ba53d0eebaa2830618f331bc728d4b90\lowcodelanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[076月2024 14:40:08.861] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\shiro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.2.32\63a076b8fcbb860cfddb7cec5c1374338a5043da\mclanguage-1.20.1-47.2.32.jar is missing mods.toml file
+[076月2024 14:40:08.865] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\shiro\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.2.32\cb79ea145f390bce56ce90e2cc62eb6928911801\fmlcore-1.20.1-47.2.32.jar is missing mods.toml file
+[076月2024 14:40:08.995] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[076月2024 14:40:10.562] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[076月2024 14:40:10.570] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\shiro\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, farmersplus, --all, --output, C:\Users\shiro\Desktop\自分用\自作mod\Farmer's Plus\src\generated\resources, --existing, C:\Users\shiro\Desktop\自分用\自作mod\Farmer's Plus\src\main\resources]
+[076月2024 14:40:10.671] [main/WARN] [mixin/]: Reference map 'farmersplus.refmap.json' for farmersplus.mixins.json could not be read. If this is a development environment you can ignore this message
+[076月2024 14:40:10.954] [main/INFO] [mixin/]: Remapping refMap farmersdelight.refmap.json using C:\Users\shiro\Desktop\自分用\自作mod\Farmer's Plus\build\createSrgToMcp\output.srg
+[076月2024 14:40:11.406] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [farmersplus]
+[076月2024 14:40:17.477] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.32, for MC 1.20.1 with MCP 20230612.114412
+[076月2024 14:40:17.478] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.32 Initialized
+[076月2024 14:40:17.844] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[076月2024 14:40:17.852] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 5.087 ms
+[076月2024 14:40:18.509] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/shiro/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.32_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[076月2024 14:40:18.510] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/shiro/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.2.32_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.2.32_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[076月2024 14:40:18.757] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[076月2024 14:40:18.849] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 92 ms
+[076月2024 14:40:18.849] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: farmersplus
+[076月2024 14:40:19.022] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: farmersplus finished after 172 ms
+[076月2024 14:40:19.022] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id farmersplus
+[076月2024 14:40:19.039] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id farmersplus finished after 16 ms
+[076月2024 14:40:19.039] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: farmersplus
+[076月2024 14:40:19.101] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: farmersplus finished after 61 ms
+[076月2024 14:40:19.101] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id farmersplus
+[076月2024 14:40:19.113] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id farmersplus finished after 11 ms
+[076月2024 14:40:19.113] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[076月2024 14:40:19.186] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 73 ms
+[076月2024 14:40:19.187] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 430 ms
+[076月2024 14:40:19.225] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 191, old count: 190, new count: 192, removed stale: 0, written: 1

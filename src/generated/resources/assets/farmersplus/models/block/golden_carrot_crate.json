@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "farmersplus:block/crate_bottom",
+    "side": "farmersplus:block/golden_carrot_crate_side",
+    "top": "farmersplus:block/golden_carrot_crate_top"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "farmersplus:vanilla_storages_enabled"
+        },
+        {
+          "type": "farmersplus:sweet_berry_bag_enabled"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "farmersplus:sweet_berry_bag"
+  }
+}

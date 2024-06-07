@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "farmersplus:block/framed_canvas_block",
+    "side": "farmersplus:block/framed_canvas_block",
+    "top": "farmersplus:block/framed_canvas_block"
+  }
+}

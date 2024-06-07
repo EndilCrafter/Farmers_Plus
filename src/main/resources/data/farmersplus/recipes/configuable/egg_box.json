@@ -1,0 +1,29 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "farmersplus:vanilla_storages_enabled"
+        },
+        {
+          "type": "farmersplus:egg_box_enabled"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "farmersplus:egg_box"
+  }
+}

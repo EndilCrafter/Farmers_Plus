@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "cooked_minced_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersplus:minced_chicken"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farmersplus:cooked_minced_chicken_from_campfire_cooking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "cooked_minced_chicken",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farmersplus:cooked_minced_chicken_from_campfire_cooking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

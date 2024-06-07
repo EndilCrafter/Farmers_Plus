@@ -1,0 +1,20 @@
+{
+  "color": "#f94736",
+  "containers": [
+    {
+      "filled": [
+        "farmersplus:tomato_juice"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": "BOTTLE"
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": "BOTTLE",
+    "item": "farmersplus:tomato_juice"
+  },
+  "from_mod": "farmersplus",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "item.farmersplus.tomato_juice"
+}

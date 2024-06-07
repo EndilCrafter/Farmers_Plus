@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "farmersplus:vanilla_storages_enabled"
+        },
+        {
+          "type": "farmersplus:red_mushroom_bag_enabled"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersplus:red_mushroom_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:red_mushroom"
+  }
+}

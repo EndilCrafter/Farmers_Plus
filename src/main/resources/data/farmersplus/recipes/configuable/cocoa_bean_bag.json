@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "farmersplus:vanilla_storages_enabled"
+        },
+        {
+          "type": "farmersplus:cocoa_bean_bag_enabled"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "farmersplus:cocoa_bean_bag"
+  }
+}

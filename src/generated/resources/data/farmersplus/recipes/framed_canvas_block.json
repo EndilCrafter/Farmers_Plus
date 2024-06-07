@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "item": "farmersplus:canvas_block"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "pattern": [
+    "S S",
+    " C ",
+    "S S"
+  ],
+  "result": {
+    "item": "farmersplus:framed_canvas_block"
+  },
+  "show_notification": true
+}

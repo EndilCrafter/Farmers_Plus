@@ -1,0 +1,13 @@
+{
+  "type": "farmersplus:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:cobbled_deepslate"
+    }
+  ],
+  "result": [
+    {
+      "item": "minecraft:gravel"
+    }
+  ]
+}

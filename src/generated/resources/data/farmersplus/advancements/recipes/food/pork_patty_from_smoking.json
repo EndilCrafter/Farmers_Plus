@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farmersplus:pork_patty_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "pork_patty": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersplus:minced_pork"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "pork_patty",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farmersplus:pork_patty_from_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

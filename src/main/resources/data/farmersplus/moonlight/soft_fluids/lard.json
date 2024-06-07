@@ -1,0 +1,29 @@
+{
+  "color": "#fcfaed",
+  "containers": [
+    {
+      "filled": [
+        "farmersplus:lard_bottle"
+      ],
+      "empty": "minecraft:glass_bottle",
+      "capacity": "BOTTLE"
+    },
+    {
+      "filled": [
+        "farmersplus:lard_bucket"
+      ],
+      "fill_sound": "minecraft:item.bucket.fill",
+      "empty_sound": "minecraft:item.bucket.empty",
+      "empty": "minecraft:bucket",
+      "capacity": "BUCKET"
+    }
+  ],
+  "flowing_texture": "moonlight:block/soft_fluids/potion_flow",
+  "food": {
+    "divider": "BUCKET",
+    "item": "farmersplus:lard_bucket"
+  },
+  "from_mod": "farmersplus",
+  "still_texture": "moonlight:block/soft_fluids/soup_liquid",
+  "translation_key": "fluid.farmersplus.lard"
+}

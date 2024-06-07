@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "farmersplus:block/sugar_cane_bale_end",
+    "side": "farmersplus:block/sugar_cane_bale_side"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "farmersplus:drying",
+  "dryingtime": 600,
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "result": {
+    "item": "farmersplus:dried_porkchop"
+  }
+}

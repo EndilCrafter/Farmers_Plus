@@ -1,0 +1,30 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "farmersplus:vanilla_storages_enabled"
+        },
+        {
+          "type": "farmersplus:apple_bag_enabled"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "farmersplus:apple_bag"
+  }
+}

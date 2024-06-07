@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.endilcrafter.farmersplus.common.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "farmersplus.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "farmersplus:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "farmersplus:bread_crumb"
+    },
+    {
+      "chance": 0.25,
+      "item": "farmersplus:bread_crumb"
+    }
+  ]
+}

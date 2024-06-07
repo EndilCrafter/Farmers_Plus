@@ -1,0 +1,64 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "farmersplus:block/kelp_side",
+    "down": "farmersplus:block/kelp_bottom",
+    "up": "farmersplus:block/kelp_top",
+    "north": "farmersplus:block/kelp_side",
+    "east": "farmersplus:block/kelp_side",
+    "south": "farmersplus:block/kelp_side",
+    "west": "farmersplus:block/kelp_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#down",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#up",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#north",
+          "cullface": "north"
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#south",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#west",
+          "cullface": "west"
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            0,
+            16
+          ],
+          "texture": "#east",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

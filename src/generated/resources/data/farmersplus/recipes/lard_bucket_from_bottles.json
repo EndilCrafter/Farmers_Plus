@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "farmersplus:lard_bottle"
+    },
+    {
+      "item": "farmersplus:lard_bottle"
+    },
+    {
+      "item": "farmersplus:lard_bottle"
+    },
+    {
+      "item": "farmersplus:lard_bottle"
+    }
+  ],
+  "result": {
+    "item": "farmersplus:lard_bucket"
+  }
+}

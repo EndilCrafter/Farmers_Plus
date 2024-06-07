@@ -1,0 +1,12 @@
+{
+  "type": "farmersplus:drying",
+  "dryingtime": 600,
+  "ingredients": [
+    {
+      "item": "minecraft:rabbit"
+    }
+  ],
+  "result": {
+    "item": "farmersplus:dried_rabbit"
+  }
+}

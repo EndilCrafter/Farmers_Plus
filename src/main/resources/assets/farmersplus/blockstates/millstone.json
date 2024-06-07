@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "spin=0": {
+      "model": "farmersplus:block/millstone"
+    },
+    "spin=1": {
+      "model": "farmersplus:block/millstone_1"
+    },
+    "spin=2": {
+      "model": "farmersplus:block/millstone_2"
+    },
+    "spin=3": {
+      "model": "farmersplus:block/millstone_3"
+    },
+    "spin=4": {
+      "model": "farmersplus:block/millstone_4"
+    },
+    "spin=5": {
+      "model": "farmersplus:block/millstone_5"
+    },
+    "spin=6": {
+      "model": "farmersplus:block/millstone_6"
+    },
+    "spin=7": {
+      "model": "farmersplus:block/millstone_7"
+    }
+  }
+}

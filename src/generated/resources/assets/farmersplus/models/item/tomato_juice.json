@@ -1,0 +1,6 @@
+{
+  "parent": "farmersplus:item/mug",
+  "textures": {
+    "layer0": "farmersplus:item/tomato_juice"
+  }
+}

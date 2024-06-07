@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersplus:minced_pork",
+      "count": 3
+    },
+    {
+      "item": "farmersplus:minced_pork",
+      "count": 1,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 50
+}

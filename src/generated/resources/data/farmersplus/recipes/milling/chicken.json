@@ -1,0 +1,18 @@
+{
+  "type": "farmersplus:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:chicken"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "farmersplus:minced_chicken"
+    },
+    {
+      "chance": 0.25,
+      "item": "farmersplus:minced_chicken"
+    }
+  ]
+}

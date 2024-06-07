@@ -1,0 +1,22 @@
+// 1.20.1	2024-06-07T14:40:19.1887996	Tags for minecraft:item mod id farmersplus
+0345d5ada2603aaa8d98cbfb4803ff1a85ad0d4c data/diet/tags/items/fruits.json
+17f6cd8ed82fce2c63230ac592e4c483eab8e5a6 data/diet/tags/items/grains.json
+04c5805e8f2eb67c65a8cede1992e96570cc2926 data/diet/tags/items/proteins.json
+769a893028eebd334e1e503472c64035cf55f0b8 data/diet/tags/items/vegetables.json
+f757bdaeeb8df54d6c24262bffe78227d0691d50 data/farmersplus/tags/items/crate_can_contain.json
+784f280a0d7a61c9194345a2dfba2afe4e4bafda data/farmersplus/tags/items/raw_minced_meats.json
+1b31ef4ac79216db58ec9c632189d50e6af0f69b data/farmersplus/tags/items/tray_can_serve.json
+074639b61a2591f87e5c4e3ed4acb82ddb9e0be1 data/forge/tags/items/chests.json
+6afcef7002697ed7e3f93fd5ea50337e8316f736 data/forge/tags/items/cooked_chicken.json
+90ac4a9e5499cb683767be1479e089b7dffc46e8 data/forge/tags/items/cooked_pork.json
+fc2c4daf96124a97760002eef2611ee5dfe37397 data/forge/tags/items/dusts.json
+eef93247ae073d4a36bd254b211db7eb76b93eec data/forge/tags/items/dusts/rice.json
+568d8e7694ea5319b88ee46b7f6a71d34360ee69 data/forge/tags/items/dusts/wheat.json
+2fb966d76941dfb28607d9e4a4d27bce25a5183d data/forge/tags/items/flour.json
+eef93247ae073d4a36bd254b211db7eb76b93eec data/forge/tags/items/flour/rice.json
+568d8e7694ea5319b88ee46b7f6a71d34360ee69 data/forge/tags/items/flour/wheat.json
+67368233ca66830525a6e449bda39cb6d732dcd1 data/forge/tags/items/lard.json
+f2fdc2f7dd209b707df7da03a918146373f1e6e5 data/forge/tags/items/lard/lard.json
+6573e693b9d46086ae46c00b7eaf86f21f486e00 data/forge/tags/items/lard/lard_bottle.json
+4f385c4434bae9d6c234c3ad75db6df6659c10bd data/forge/tags/items/raw_chicken.json
+379da932a529d700738e5560e0aef06cffc617d9 data/forge/tags/items/raw_pork.json

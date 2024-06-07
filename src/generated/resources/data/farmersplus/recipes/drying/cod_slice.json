@@ -1,0 +1,12 @@
+{
+  "type": "farmersplus:drying",
+  "dryingtime": 600,
+  "ingredients": [
+    {
+      "item": "farmersdelight:cod_slice"
+    }
+  ],
+  "result": {
+    "item": "farmersplus:dried_cod_slice"
+  }
+}

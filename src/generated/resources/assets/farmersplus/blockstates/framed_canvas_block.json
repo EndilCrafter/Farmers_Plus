@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "farmersplus:block/framed_canvas_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "farmersplus:block/framed_canvas_block"
+    },
+    "facing=south": {
+      "model": "farmersplus:block/framed_canvas_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "farmersplus:block/framed_canvas_block",
+      "y": 270
+    }
+  }
+}

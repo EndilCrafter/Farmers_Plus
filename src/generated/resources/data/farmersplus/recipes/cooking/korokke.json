@@ -1,0 +1,29 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "tag": "forge:crops/potato"
+    },
+    {
+      "tag": "farmersplus:raw_minced_meats"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "farmersplus:bread_crumb"
+    },
+    {
+      "tag": "forge:lard"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersplus:korokke"
+  }
+}

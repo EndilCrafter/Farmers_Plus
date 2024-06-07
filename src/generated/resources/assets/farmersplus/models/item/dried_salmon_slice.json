@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "farmersplus:item/dried_salmon_slice"
+  }
+}

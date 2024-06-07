@@ -1,0 +1,26 @@
+{
+  "conditions": [
+    {
+      "type": "forge:and",
+      "values": [
+        {
+          "type": "farmersplus:vanilla_storages_enabled"
+        },
+        {
+          "type": "farmersplus:golden_apple_bag_enabled"
+        }
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "farmersplus:golden_apple_bag"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "minecraft:golden_apple"
+  }
+}

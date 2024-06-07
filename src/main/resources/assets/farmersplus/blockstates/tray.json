@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "farmersplus:block/tray",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "farmersplus:block/tray",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "farmersplus:block/tray"
+    },
+    "facing=west": {
+      "model": "farmersplus:block/tray",
+      "y": 90
+    }
+  }
+}

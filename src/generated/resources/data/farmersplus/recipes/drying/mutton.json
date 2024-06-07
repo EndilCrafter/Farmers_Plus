@@ -1,0 +1,12 @@
+{
+  "type": "farmersplus:drying",
+  "dryingtime": 600,
+  "ingredients": [
+    {
+      "item": "minecraft:mutton"
+    }
+  ],
+  "result": {
+    "item": "farmersplus:dried_mutton"
+  }
+}

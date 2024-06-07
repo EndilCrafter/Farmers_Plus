@@ -1,0 +1,12 @@
+{
+  "type": "farmersplus:drying",
+  "dryingtime": 600,
+  "ingredients": [
+    {
+      "item": "farmersplus:golden_apple_slice"
+    }
+  ],
+  "result": {
+    "item": "farmersplus:dried_golden_apple_slice"
+  }
+}

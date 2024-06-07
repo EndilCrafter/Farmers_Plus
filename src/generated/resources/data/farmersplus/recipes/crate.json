@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "W": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "S S",
+    "S S",
+    "SWS"
+  ],
+  "result": {
+    "item": "farmersplus:crate"
+  },
+  "show_notification": true
+}
