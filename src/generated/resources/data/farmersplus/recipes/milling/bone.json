@@ -1,0 +1,23 @@
+{
+  "type": "farmersplus:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    }
+  ],
+  "result": [
+    {
+      "count": 3,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "chance": 0.25,
+      "count": 3,
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "chance": 0.25,
+      "item": "minecraft:white_dye"
+    }
+  ]
+}

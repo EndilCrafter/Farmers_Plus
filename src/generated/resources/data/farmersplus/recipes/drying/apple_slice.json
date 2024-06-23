@@ -1,6 +1,6 @@
 {
   "type": "farmersplus:drying",
-  "dryingtime": 600,
+  "dryingtime": 300,
   "ingredients": [
     {
       "item": "farmersplus:apple_slice"

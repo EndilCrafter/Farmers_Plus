@@ -3,10 +3,10 @@
   "dryingtime": 300,
   "ingredients": [
     {
-      "item": "farmersplus:golden_apple_slice"
+      "item": "minecraft:kelp"
     }
   ],
   "result": {
-    "item": "farmersplus:dried_golden_apple_slice"
+    "item": "minecraft:dried_kelp"
   }
 }

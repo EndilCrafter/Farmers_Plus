@@ -1,0 +1,12 @@
+{
+  "type": "farmersplus:drying",
+  "dryingtime": 1200,
+  "ingredients": [
+    {
+      "item": "farmersplus:kelp_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block"
+  }
+}
