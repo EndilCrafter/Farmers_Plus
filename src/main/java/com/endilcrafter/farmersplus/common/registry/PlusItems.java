@@ -8,6 +8,7 @@ import com.endilcrafter.farmersplus.common.item.DriedMeatItem;
 import com.google.common.collect.Sets;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.BowlFoodItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -121,7 +122,7 @@ public class PlusItems {
             () -> new Item(foodItem(PlusFoodValues.PORK_PATTY)));
 
     public static final RegistryObject<Item> CHICKEN_NUGGET = registerWithTab("chicken_nugget",
-            () -> new Item(foodItem(PlusFoodValues.CHICKEN_NUGGET)));
+            () -> new BowlFoodItem(foodItem(PlusFoodValues.CHICKEN_NUGGET).stacksTo(16)));
     public static final RegistryObject<Item> KOROKKE = registerWithTab("korokke",
             () -> new Item(foodItem(PlusFoodValues.KOROKKE)));
 
