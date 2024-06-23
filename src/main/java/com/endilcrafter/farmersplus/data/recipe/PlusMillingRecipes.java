@@ -23,6 +23,6 @@ public class PlusMillingRecipes {
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.COBBLED_DEEPSLATE), Items.GRAVEL).build(consumer);
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.BONE), Items.BONE_MEAL, 3).addResultWithChance(Items.BONE_MEAL, 0.25F, 3).addResultWithChance(Items.WHITE_DYE, 0.25F).build(consumer);
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.GRAVEL), Items.SAND).addResultWithChance(Items.FLINT, 0.25F).build(consumer);
-        MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.SUGAR_CANE), Items.SUGAR, 2).addResultWithChance(Items.BONE_MEAL, 0.1F).build(consumer);
+        MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.SUGAR_CANE), Items.SUGAR, 2).addResultWithChance(Items.SUGAR, 0.1F).build(consumer);
     }
 }
