@@ -32,7 +32,11 @@ public class PlusItemModels extends ItemModelProvider {
 
         items.remove(EGG_BOX.get());
         items.remove(CANVAS_CHEST.get());
+        items.remove(TERRACOTTA_POT.get());
+        items.remove(GRATIN_BLOCK.get());
         spriteModel(PlusBlocks.EGG_BOX);
+        spriteModel(PlusBlocks.TERRACOTTA_POT);
+        spriteModel(PlusBlocks.GRATIN_BLOCK);
 
         takeAll(items, i -> i instanceof BlockItem).forEach(item -> blockBasedModel(item, ""));
         for (RegistryObject<Item> itemRegistryObject : Arrays.asList(
@@ -41,6 +45,13 @@ public class PlusItemModels extends ItemModelProvider {
                 WHEAT_FLOUR,
                 LARD_BOTTLE,
                 LARD_BUCKET,
+                TERRACOTTA_BOWL,
+                BEEF_TONGUE,
+                BEEF_TONGUE_SKIN,
+                SKINNED_BEEF_TONGUE,
+                BEEF_TONGUE_SLICE,
+                COOKED_BEEF_TONGUE,
+                COOKED_BEEF_TONGUE_SLICE,
                 APPLE_SLICE,
                 GOLDEN_APPLE_SLICE,
                 DRIED_APPLE_SLICE,
@@ -52,6 +63,7 @@ public class PlusItemModels extends ItemModelProvider {
                 DRIED_PORKCHOP,
                 DRIED_RABBIT,
                 DRIED_SALMON_SLICE,
+                DRIED_BEEF_TONGUE_SKIN,
                 BOILED_EGG,
                 MINCED_CHICKEN,
                 MINCED_PORK,
@@ -60,11 +72,14 @@ public class PlusItemModels extends ItemModelProvider {
                 CHICKEN_NUGGET,
                 KOROKKE,
                 FRIED_HOLY_BASIL,
-                SALISBURY_STEAK
+                SALISBURY_STEAK,
+                GRATIN
         )) {
             simpleModel(itemRegistryObject);
         }
+
         mugModel(TOMATO_JUICE);
+
     }
 
     private ItemModelBuilder simpleModel(RegistryObject<Item> item) {

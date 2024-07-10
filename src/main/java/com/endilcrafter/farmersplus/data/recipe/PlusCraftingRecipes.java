@@ -127,6 +127,16 @@ public class PlusCraftingRecipes {
                 .unlockedBy("has_tray", InventoryChangeTrigger.TriggerInstance.hasItems(PlusItems.TRAY.get()))
                 .save(consumer, new ResourceLocation(FarmersPlus.MODID, "bowl_from_tray"));
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PlusItems.TERRACOTTA_BOWL.get(), 4)
+                .pattern("T T")
+                .pattern(" T ")
+                .define('T', Ingredient.of(Items.TERRACOTTA)).unlockedBy("has_terracotta", InventoryChangeTrigger.TriggerInstance.hasItems(Items.TERRACOTTA))
+                .save(consumer);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, PlusItems.TERRACOTTA_POT.get(), 1)
+                .pattern("T T")
+                .pattern("TTT")
+                .define('T', Ingredient.of(Items.TERRACOTTA)).unlockedBy("has_terracotta", InventoryChangeTrigger.TriggerInstance.hasItems(Items.TERRACOTTA))
+                .save(consumer);
     }
 }

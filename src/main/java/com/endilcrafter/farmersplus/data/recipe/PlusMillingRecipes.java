@@ -18,6 +18,7 @@ public class PlusMillingRecipes {
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.BEEF), ModItems.MINCED_BEEF.get(), 3).addResultWithChance(ModItems.MINCED_BEEF.get(), 0.25F).build(consumer);
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.CHICKEN), PlusItems.MINCED_CHICKEN.get(), 3).addResultWithChance(PlusItems.MINCED_CHICKEN.get(), 0.25F).build(consumer);
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.PORKCHOP), PlusItems.MINCED_PORK.get(), 3).addResultWithChance(PlusItems.MINCED_PORK.get(), 0.25F).build(consumer);
+        MillstoneRecipeBuilder.millingRecipe(Ingredient.of(PlusItems.BEEF_TONGUE_SLICE.get()), ModItems.MINCED_BEEF.get(), 2).build(consumer);
 
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.COBBLESTONE), Items.GRAVEL).build(consumer);
         MillstoneRecipeBuilder.millingRecipe(Ingredient.of(Items.COBBLED_DEEPSLATE), Items.GRAVEL).build(consumer);

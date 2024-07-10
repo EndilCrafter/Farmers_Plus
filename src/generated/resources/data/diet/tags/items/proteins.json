@@ -1,5 +1,11 @@
 {
   "values": [
+    "farmersplus:beef_tongue",
+    "farmersplus:beef_tongue_skin",
+    "farmersplus:skinned_beef_tongue",
+    "farmersplus:beef_tongue_slice",
+    "farmersplus:cooked_beef_tongue",
+    "farmersplus:cooked_beef_tongue_slice",
     "farmersplus:dried_beef",
     "farmersplus:dried_chicken",
     "farmersplus:dried_cod_slice",
@@ -7,6 +13,7 @@
     "farmersplus:dried_porkchop",
     "farmersplus:dried_rabbit",
     "farmersplus:dried_salmon_slice",
+    "farmersplus:dried_beef_tongue_skin",
     "farmersplus:boiled_egg",
     "farmersplus:minced_chicken",
     "farmersplus:minced_pork",
@@ -15,6 +22,7 @@
     "farmersplus:chicken_nugget",
     "farmersplus:korokke",
     "farmersplus:fried_holy_basil",
-    "farmersplus:salisbury_steak"
+    "farmersplus:salisbury_steak",
+    "farmersplus:gratin"
   ]
 }

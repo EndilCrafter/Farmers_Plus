@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "farmersplus:beef_tongue_slice"
+    }
+  ],
+  "results": [
+    {
+      "item": "farmersdelight:minced_beef",
+      "count": 2
+    }
+  ],
+  "processingTime": 50
+}

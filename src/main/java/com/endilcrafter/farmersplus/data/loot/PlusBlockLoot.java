@@ -50,7 +50,8 @@ public class PlusBlockLoot extends BlockLootSubProvider {
                 CANVAS_CHEST,
                 DRYING_RACK,
                 MILLSTONE,
-                TRAY
+                TRAY,
+                TERRACOTTA_POT
         )) {
             this.dropSelf(blockRegistryObject.get());
         }

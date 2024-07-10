@@ -31,9 +31,15 @@ public class PlusItemTags extends ItemTagsProvider {
         this.tag(PlusCompatTags.DIET_FRUITS)
                 .add(APPLE_SLICE.get(), GOLDEN_APPLE_SLICE.get(), DRIED_APPLE_SLICE.get(), DRIED_GOLDEN_APPLE_SLICE.get());
         this.tag(PlusCompatTags.DIET_GRAINS)
-                .add(BREAD_CRUMB.get(), RICE_FLOUR.get(), WHEAT_FLOUR.get(), CHICKEN_NUGGET.get(), KOROKKE.get(), FRIED_HOLY_BASIL.get());
+                .add(BREAD_CRUMB.get(), RICE_FLOUR.get(), WHEAT_FLOUR.get(), CHICKEN_NUGGET.get(), KOROKKE.get(), FRIED_HOLY_BASIL.get(), GRATIN.get());
         this.tag(PlusCompatTags.DIET_PROTEINS)
                 .add(
+                        BEEF_TONGUE.get(),
+                        BEEF_TONGUE_SKIN.get(),
+                        SKINNED_BEEF_TONGUE.get(),
+                        BEEF_TONGUE_SLICE.get(),
+                        COOKED_BEEF_TONGUE.get(),
+                        COOKED_BEEF_TONGUE_SLICE.get(),
                         DRIED_BEEF.get(),
                         DRIED_CHICKEN.get(),
                         DRIED_COD_SLICE.get(),
@@ -41,6 +47,7 @@ public class PlusItemTags extends ItemTagsProvider {
                         DRIED_PORKCHOP.get(),
                         DRIED_RABBIT.get(),
                         DRIED_SALMON_SLICE.get(),
+                        DRIED_BEEF_TONGUE_SKIN.get(),
                         BOILED_EGG.get(),
                         MINCED_CHICKEN.get(),
                         MINCED_PORK.get(),
@@ -49,17 +56,22 @@ public class PlusItemTags extends ItemTagsProvider {
                         CHICKEN_NUGGET.get(),
                         KOROKKE.get(),
                         FRIED_HOLY_BASIL.get(),
-                        SALISBURY_STEAK.get()
+                        SALISBURY_STEAK.get(),
+                        GRATIN.get()
                 );
         this.tag(PlusCompatTags.DIET_VEGETABLES)
-                .add(CHICKEN_NUGGET.get(), KOROKKE.get(), FRIED_HOLY_BASIL.get(), SALISBURY_STEAK.get(), TOMATO_JUICE.get());
+                .add(CHICKEN_NUGGET.get(), KOROKKE.get(), FRIED_HOLY_BASIL.get(), SALISBURY_STEAK.get(), TOMATO_JUICE.get(), GRATIN.get());
+        this.tag(PlusCompatTags.DIET_SPECIAL_FOOD)
+                .add(GRATIN_BLOCK.get());
 
         this.tag(Tags.Items.CHESTS).add(CANVAS_CHEST.get());
         this.tag(Tags.Items.DUSTS).addTag(PlusForgeTags.DUSTS_RICE).addTag(PlusForgeTags.DUSTS_WHEAT);
         this.tag(PlusForgeTags.DUSTS_RICE).add(RICE_FLOUR.get());
         this.tag(PlusForgeTags.DUSTS_WHEAT).add(WHEAT_FLOUR.get());
+        this.tag(ForgeTags.COOKED_BEEF).add(COOKED_BEEF_TONGUE.get(), COOKED_BEEF_TONGUE_SLICE.get());
         this.tag(ForgeTags.COOKED_CHICKEN).add(COOKED_MINCED_CHICKEN.get());
         this.tag(ForgeTags.COOKED_PORK).add(PORK_PATTY.get());
+        this.tag(ForgeTags.RAW_BEEF).add(SKINNED_BEEF_TONGUE.get(), BEEF_TONGUE_SLICE.get());
         this.tag(ForgeTags.RAW_CHICKEN).add(MINCED_CHICKEN.get());
         this.tag(ForgeTags.RAW_PORK).add(MINCED_PORK.get());
         this.tag(PlusForgeTags.FLOUR).addTag(PlusForgeTags.FLOUR_RICE).addTag(PlusForgeTags.FLOUR_WHEAT);

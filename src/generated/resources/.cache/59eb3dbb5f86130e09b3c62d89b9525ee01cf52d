@@ -1,4 +1,4 @@
-// 1.20.1	2024-06-07T11:18:11.8405862	Loot Tables
+// 1.20.1	2024-07-10T11:33:04.5641769	Loot Tables
 77b38c9203530333d0a9376c99abbdb11c6e5cc1 data/farmersplus/loot_tables/blocks/apple_bag.json
 b5b4dce533f35ff7c580a634ff7a7d1d94020453 data/farmersplus/loot_tables/blocks/brown_mushroom_bag.json
 5ff09e43138de117498ec3b1ed358f7c5cf6e1aa data/farmersplus/loot_tables/blocks/canvas_block.json
@@ -17,5 +17,6 @@ d8badcdda9340ddaab50a9d9b67f3d6d57fd77ae data/farmersplus/loot_tables/blocks/mil
 1766094783934563045e6626659e4418b6409bbb data/farmersplus/loot_tables/blocks/red_mushroom_bag.json
 b3c0a5cc1887f376a7470daebcacb34bc84194f7 data/farmersplus/loot_tables/blocks/sugar_cane_bale.json
 2a7da1583c369e65e0a0d6be4b5cc5fbb9d2cfee data/farmersplus/loot_tables/blocks/sweet_berry_bag.json
+7b12b826f8f6be35df48d84e47dedcfb838a90ee data/farmersplus/loot_tables/blocks/terracotta_pot.json
 6351fea5ca1f04c64d93ae0a6cfa1fb65088e376 data/farmersplus/loot_tables/blocks/tray.json
 bc075d83d05a34e30517e7f875582a5d12d39442 data/farmersplus/loot_tables/blocks/warped_fungus_bag.json

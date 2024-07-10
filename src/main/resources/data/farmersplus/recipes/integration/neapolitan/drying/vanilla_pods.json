@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "neapolitan"
+    }
+  ],
+  "type": "farmersplus:drying",
+  "dryingtime": 600,
+  "ingredients": [
+    {
+      "item": "neapolitan:vanilla_pods"
+    }
+  ],
+  "result": {
+    "item": "neapolitan:dried_vanilla_pods"
+  }
+}

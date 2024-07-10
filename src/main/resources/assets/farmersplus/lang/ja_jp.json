@@ -30,6 +30,15 @@
   "item.farmersplus.wheat_flour": "小麦粉",
   "item.farmersplus.lard_bottle": "ラード入り瓶",
   "item.farmersplus.lard_bucket": "ラード入りバケツ",
+  "item.farmersplus.terracotta_bowl": "耐熱ボウル",
+  "block.farmersplus.terracotta_pot": "土鍋",
+
+  "item.farmersplus.beef_tongue": "牛タン",
+  "item.farmersplus.beef_tongue_skin": "牛タンの皮",
+  "item.farmersplus.skinned_beef_tongue": "皮を剥いだ牛タン",
+  "item.farmersplus.beef_tongue_slice": "牛タンのスライス",
+  "item.farmersplus.cooked_beef_tongue": "牛タンステーキ",
+  "item.farmersplus.cooked_beef_tongue_slice": "牛タンステーキのスライス",
 
   "item.farmersplus.apple_slice": "リンゴのスライス",
   "item.farmersplus.golden_apple_slice": "金のリンゴのスライス",
@@ -42,6 +51,7 @@
   "item.farmersplus.dried_porkchop": "豚の干し肉",
   "item.farmersplus.dried_rabbit": "兎の干し肉",
   "item.farmersplus.dried_salmon_slice": "鮭の干物",
+  "item.farmersplus.dried_beef_tongue_skin": "タン皮ジャーキー",
   "item.farmersplus.boiled_egg": "ゆで卵",
 
   "item.farmersplus.minced_chicken": "鶏ひき肉",
@@ -55,6 +65,9 @@
   "item.farmersplus.salisbury_steak": "ハンバーグ",
 
   "item.farmersplus.tomato_juice": "トマトジュース",
+
+  "block.farmersplus.gratin_block": "グラタン",
+  "item.farmersplus.gratin": "ボウルによそったグラタン",
 
   "farmersplus.container.crate": "木箱",
   "farmersdelight.block.millstone.invalid_item": "ただ回しているだけだ…",

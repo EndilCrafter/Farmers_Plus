@@ -1,0 +1,6 @@
+{
+  "parent": "farmersplus:block/terracotta_feast_stage0",
+  "textures": {
+    "feast": "farmersplus:block/gratin"
+  }
+}

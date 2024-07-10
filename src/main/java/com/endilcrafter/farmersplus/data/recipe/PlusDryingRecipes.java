@@ -20,6 +20,7 @@ public class PlusDryingRecipes {
         DryingRecipeBuilder.dryingRecipe(Ingredient.of(Items.PORKCHOP), PlusItems.DRIED_PORKCHOP.get()).build(consumer);
         DryingRecipeBuilder.dryingRecipe(Ingredient.of(Items.RABBIT), PlusItems.DRIED_RABBIT.get()).build(consumer);
         DryingRecipeBuilder.dryingRecipe(Ingredient.of(ModItems.SALMON_SLICE.get()), PlusItems.DRIED_SALMON_SLICE.get()).build(consumer);
+        DryingRecipeBuilder.dryingRecipe(Ingredient.of(PlusItems.BEEF_TONGUE_SKIN.get()), PlusItems.DRIED_BEEF_TONGUE_SKIN.get()).build(consumer);
 
         DryingRecipeBuilder.dryingRecipe(Ingredient.of(Items.KELP), Items.DRIED_KELP, 300).build(consumer);
         DryingRecipeBuilder.dryingRecipe(Ingredient.of(PlusItems.KELP_BLOCK.get()), Items.DRIED_KELP_BLOCK, 1200).build(consumer);

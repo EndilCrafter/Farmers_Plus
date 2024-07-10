@@ -63,5 +63,15 @@ public class PlusCookingRecipes {
                 .addIngredient(ModItems.TOMATO_SAUCE.get())
                 .setRecipeBookTab(CookingPotRecipeBookTab.MEALS).unlockedByAnyIngredient(ModItems.MINCED_BEEF.get(), PlusItems.MINCED_CHICKEN.get(), PlusItems.MINCED_PORK.get())
                 .build(consumer, new ResourceLocation(FarmersPlus.MODID, "cooking/salisbury_steak"));
+
+        CookingPotRecipeBuilder.cookingPotRecipe(PlusItems.GRATIN_BLOCK.get(), 1, 200, 2.0F, PlusItems.TERRACOTTA_POT.get())
+                .addIngredient(ForgeTags.MILK)
+                .addIngredient(PlusForgeTags.FLOUR)
+                .addIngredient(ForgeTags.CROPS_ONION)
+                .addIngredient(Items.BROWN_MUSHROOM)
+                .addIngredient(PlusTags.RAW_MINCED_MEATS)
+                .addIngredient(ForgeTags.PASTA_RAW_PASTA)
+                .setRecipeBookTab(CookingPotRecipeBookTab.MEALS).unlockedByItems("has_raw_pasta", ModItems.RAW_PASTA.get())
+                .build(consumer, new ResourceLocation(FarmersPlus.MODID, "cooking/gratin_block"));
     }
 }

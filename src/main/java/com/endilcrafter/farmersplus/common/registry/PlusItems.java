@@ -85,8 +85,24 @@ public class PlusItems {
             () -> new Item(basicItem().craftRemainder(Items.GLASS_BOTTLE).stacksTo(16)));
     public static final RegistryObject<Item> LARD_BUCKET = registerWithTab("lard_bucket",
             () -> new Item(basicItem().craftRemainder(Items.BUCKET).stacksTo(1)));
-
-    //Food
+    public static final RegistryObject<Item> TERRACOTTA_BOWL = registerWithTab("terracotta_bowl",
+            () -> new Item(basicItem()));
+    public static final RegistryObject<Item> TERRACOTTA_POT = registerWithTab("terracotta_pot",
+            () -> new BlockItem(PlusBlocks.TERRACOTTA_POT.get(), basicItem().stacksTo(16)));
+    //Meat
+    public static final RegistryObject<Item> BEEF_TONGUE = registerWithTab("beef_tongue",
+            () -> new Item(foodItem(PlusFoodValues.BEEF_TONGUE)));
+    public static final RegistryObject<Item> BEEF_TONGUE_SKIN = registerWithTab("beef_tongue_skin",
+            () -> new Item(foodItem(PlusFoodValues.BEEF_TONGUE_SKIN)));
+    public static final RegistryObject<Item> SKINNED_BEEF_TONGUE = registerWithTab("skinned_beef_tongue",
+            () -> new Item(foodItem(PlusFoodValues.SKINNED_BEEF_TONGUE)));
+    public static final RegistryObject<Item> BEEF_TONGUE_SLICE = registerWithTab("beef_tongue_slice",
+            () -> new Item(foodItem(PlusFoodValues.BEEF_TONGUE_SLICE)));
+    public static final RegistryObject<Item> COOKED_BEEF_TONGUE = registerWithTab("cooked_beef_tongue",
+            () -> new Item(foodItem(PlusFoodValues.COOKED_BEEF_TONGUE)));
+    public static final RegistryObject<Item> COOKED_BEEF_TONGUE_SLICE = registerWithTab("cooked_beef_tongue_slice",
+            () -> new Item(foodItem(PlusFoodValues.COOKED_BEEF_TONGUE_SLICE)));
+    //Dried Food
     public static final RegistryObject<Item> APPLE_SLICE = registerWithTab("apple_slice",
             () -> new Item(foodItem(PlusFoodValues.APPLE_SLICE)));
     public static final RegistryObject<Item> GOLDEN_APPLE_SLICE = registerWithTab("golden_apple_slice",
@@ -109,9 +125,11 @@ public class PlusItems {
             () -> new DriedMeatItem(foodItem(PlusFoodValues.DRIED_RABBIT)));
     public static final RegistryObject<Item> DRIED_SALMON_SLICE = registerWithTab("dried_salmon_slice",
             () -> new DriedFishItem(foodItem(PlusFoodValues.DRIED_SALMON_SLICE)));
+    public static final RegistryObject<Item> DRIED_BEEF_TONGUE_SKIN = registerWithTab("dried_beef_tongue_skin",
+            () -> new DriedMeatItem(foodItem(PlusFoodValues.DRIED_BEEF_TONGUE_SKIN)));
     public static final RegistryObject<Item> BOILED_EGG = registerWithTab("boiled_egg",
             () -> new Item(foodItem(PlusFoodValues.BOILED_EGG)));
-
+    //Minced Food
     public static final RegistryObject<Item> MINCED_CHICKEN = registerWithTab("minced_chicken",
             () -> new Item(foodItem(PlusFoodValues.MINCED_CHICKEN)));
     public static final RegistryObject<Item> MINCED_PORK = registerWithTab("minced_pork",
@@ -120,19 +138,24 @@ public class PlusItems {
             () -> new Item(foodItem(PlusFoodValues.COOKED_MINCED_CHICKEN)));
     public static final RegistryObject<Item> PORK_PATTY = registerWithTab("pork_patty",
             () -> new Item(foodItem(PlusFoodValues.PORK_PATTY)));
-
+    //Deep Fried
     public static final RegistryObject<Item> CHICKEN_NUGGET = registerWithTab("chicken_nugget",
             () -> new BowlFoodItem(foodItem(PlusFoodValues.CHICKEN_NUGGET).stacksTo(16)));
     public static final RegistryObject<Item> KOROKKE = registerWithTab("korokke",
             () -> new Item(foodItem(PlusFoodValues.KOROKKE)));
-
+    //Plate
     public static final RegistryObject<Item> FRIED_HOLY_BASIL = registerWithTab("fried_holy_basil",
             () -> new ConsumableItem(foodItem(PlusFoodValues.FRIED_HOLY_BASIL).craftRemainder(Items.BOWL).stacksTo(16), true));
     public static final RegistryObject<Item> SALISBURY_STEAK = registerWithTab("salisbury_steak",
             () -> new ConsumableItem(foodItem(PlusFoodValues.SALISBURY_STEAK).craftRemainder(Items.BOWL).stacksTo(16), true));
-
+    //Drink
     public static final RegistryObject<Item> TOMATO_JUICE = registerWithTab("tomato_juice",
             () -> new DrinkableItem(foodItem(PlusFoodValues.TOMATO_JUICE).craftRemainder(Items.GLASS_BOTTLE).stacksTo(16), true, false));
+    //Feast
+    public static final RegistryObject<Item> GRATIN_BLOCK = registerWithTab("gratin_block",
+            () -> new BlockItem(PlusBlocks.GRATIN_BLOCK.get(), basicItem().stacksTo(1)));
+    public static final RegistryObject<Item> GRATIN = registerWithTab("gratin",
+            () -> new ConsumableItem(foodItem(PlusFoodValues.GRATIN).craftRemainder(PlusItems.TERRACOTTA_BOWL.get()).stacksTo(16), true));
 
     public static RegistryObject<Item> registerWithTab(final String name, final Supplier<Item> supplier) {
         RegistryObject<Item> block = ITEMS.register(name, supplier);

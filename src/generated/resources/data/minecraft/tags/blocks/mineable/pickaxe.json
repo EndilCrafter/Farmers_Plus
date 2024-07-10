@@ -1,5 +1,7 @@
 {
   "values": [
-    "farmersplus:millstone"
+    "farmersplus:millstone",
+    "farmersplus:terracotta_pot",
+    "farmersplus:gratin_block"
   ]
 }

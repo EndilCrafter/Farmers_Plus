@@ -6,6 +6,12 @@ import net.minecraft.world.food.FoodProperties;
 import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class PlusFoodValues {
+    public static final FoodProperties BEEF_TONGUE = (new FoodProperties.Builder().nutrition(4).saturationMod(0.2f)).meat().build();
+    public static final FoodProperties BEEF_TONGUE_SKIN = (new FoodProperties.Builder().nutrition(2).saturationMod(0.2f)).meat().build();
+    public static final FoodProperties SKINNED_BEEF_TONGUE = (new FoodProperties.Builder().nutrition(5).saturationMod(0.3f)).meat().build();
+    public static final FoodProperties BEEF_TONGUE_SLICE = (new FoodProperties.Builder().nutrition(3).saturationMod(0.3f)).meat().fast().build();
+    public static final FoodProperties COOKED_BEEF_TONGUE = (new FoodProperties.Builder().nutrition(12).saturationMod(0.8f)).meat().build();
+    public static final FoodProperties COOKED_BEEF_TONGUE_SLICE = (new FoodProperties.Builder().nutrition(5).saturationMod(0.8f)).meat().fast().build();
 
     public static final FoodProperties APPLE_SLICE = (new FoodProperties.Builder().nutrition(1).saturationMod(0.3f)).fast().build();
 
@@ -33,6 +39,8 @@ public class PlusFoodValues {
 
     public static final FoodProperties DRIED_SALMON_SLICE = (new FoodProperties.Builder().nutrition(2).saturationMod(0.8f)).alwaysEat().meat().build();
 
+    public static final FoodProperties DRIED_BEEF_TONGUE_SKIN = (new FoodProperties.Builder().nutrition(2).saturationMod(1.0f)).alwaysEat().meat().build();
+
     public static final FoodProperties MINCED_CHICKEN = new FoodProperties.Builder().nutrition(1).saturationMod(0.3F)
             .effect(() -> new MobEffectInstance(MobEffects.HUNGER, 600, 0), 0.3F).meat().fast().build();
 
@@ -54,4 +62,7 @@ public class PlusFoodValues {
 
     public static final FoodProperties TOMATO_JUICE = new FoodProperties.Builder()
             .alwaysEat().effect(() -> new MobEffectInstance(MobEffects.NIGHT_VISION, 1200, 0), 1.0F).build();
+
+    public static final FoodProperties GRATIN = new FoodProperties.Builder().nutrition(14).saturationMod(0.75F)
+            .effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), 6000, 0), 1.0F).build();
 }

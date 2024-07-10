@@ -1,0 +1,18 @@
+{
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "upgrade_aquatic"
+    }
+  ],
+  "type": "farmersplus:drying",
+  "dryingtime": 1200,
+  "ingredients": [
+    {
+      "item": "upgrade_aquatic:kelp_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block"
+  }
+}

@@ -30,6 +30,15 @@
   "item.farmersplus.wheat_flour": "Wheat Flour",
   "item.farmersplus.lard_bottle": "Lard Bottle",
   "item.farmersplus.lard_bucket": "Lard Bucket",
+  "item.farmersplus.terracotta_bowl": "Terracotta Bowl",
+  "block.farmersplus.terracotta_pot": "Terracotta Pot",
+
+  "item.farmersplus.beef_tongue": "Beef Tongue",
+  "item.farmersplus.beef_tongue_skin": "Beef Tongue Skin",
+  "item.farmersplus.skinned_beef_tongue": "Skinned Beef Tongue",
+  "item.farmersplus.beef_tongue_slice": "Beef Tongue Slice",
+  "item.farmersplus.cooked_beef_tongue": "Cooked Beef Tongue",
+  "item.farmersplus.cooked_beef_tongue_slice": "Cooked Beef Tongue Slice",
 
   "item.farmersplus.apple_slice": "Apple Slice",
   "item.farmersplus.golden_apple_slice": "Golden Apple Slice",
@@ -42,6 +51,7 @@
   "item.farmersplus.dried_porkchop": "Dried Porkchop",
   "item.farmersplus.dried_rabbit": "Dried Rabbit",
   "item.farmersplus.dried_salmon_slice": "Dried Salmon Slice",
+  "item.farmersplus.dried_beef_tongue_skin": "Dried Beef Tongue Skin",
   "item.farmersplus.boiled_egg": "Boiled Egg",
 
   "item.farmersplus.minced_chicken": "Minced Chicken",
@@ -55,6 +65,9 @@
   "item.farmersplus.salisbury_steak": "Salisbury Steak",
 
   "item.farmersplus.tomato_juice": "Tomato Juice",
+
+  "block.farmersplus.gratin_block": "Gratin",
+  "item.farmersplus.gratin": "Bowl of Gratin",
 
   "farmersplus.container.crate": "Crate",
   "farmersdelight.block.millstone.invalid_item": "This doesn't seem millable...",

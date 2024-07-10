@@ -25,7 +25,7 @@ public class PlusBlockTags extends BlockTagsProvider {
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(BlockTags.MINEABLE_WITH_AXE).add(GOLDEN_CARROT_CRATE.get(), FRAMED_CANVAS_BLOCK.get(), CANVAS_CHEST.get(), CRATE.get(), DRYING_RACK.get(), TRAY.get());
         this.tag(BlockTags.MINEABLE_WITH_HOE).add(KELP_BLOCK.get(), SUGAR_CANE_BALE.get());
-        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(MILLSTONE.get());
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(MILLSTONE.get(), TERRACOTTA_POT.get(), GRATIN_BLOCK.get());
         for (RegistryObject<Block> blockRegistryObject : Arrays.asList(
                 APPLE_BAG,
                 BROWN_MUSHROOM_BAG,

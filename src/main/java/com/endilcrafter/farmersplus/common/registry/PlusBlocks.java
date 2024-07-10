@@ -7,6 +7,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -58,6 +59,11 @@ public class PlusBlocks {
             () -> new MillstoneBlock(BlockBehaviour.Properties.copy(Blocks.GRINDSTONE)));
     public static final RegistryObject<Block> TRAY = BLOCKS.register("tray",
             () -> new TrayBlock(BlockBehaviour.Properties.copy(Blocks.COMPOSTER).noOcclusion().instabreak()));
+
+    public static final RegistryObject<Block> TERRACOTTA_POT = BLOCKS.register("terracotta_pot",
+            () -> new TerracottaPotBlock(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_ORANGE).instrument(NoteBlockInstrument.BASEDRUM).strength(0.5F, 6.0F)));
+    public static final RegistryObject<Block> GRATIN_BLOCK = BLOCKS.register("gratin_block",
+            () -> new TerracottaFeastBlock(BlockBehaviour.Properties.copy(PlusBlocks.TERRACOTTA_POT.get()), PlusItems.GRATIN));
 
     public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);

@@ -14,6 +14,8 @@ import java.util.function.Consumer;
 
 public class PlusSmeltingRecipes {
     public static void register(Consumer<FinishedRecipe> consumer) {
+        foodSmeltingRecipes("cooked_beef_tongue", PlusItems.SKINNED_BEEF_TONGUE.get(), PlusItems.COOKED_BEEF_TONGUE.get(), 1.0F, 400, consumer);
+        foodSmeltingRecipes("cooked_beef_tongue_slice", PlusItems.BEEF_TONGUE_SLICE.get(), PlusItems.COOKED_BEEF_TONGUE_SLICE.get(), 0.35F, 100, consumer);
         foodSmeltingRecipes("cooked_minced_chicken", PlusItems.MINCED_CHICKEN.get(), PlusItems.COOKED_MINCED_CHICKEN.get(), 0.35F, consumer);
         foodSmeltingRecipes("pork_patty", PlusItems.MINCED_PORK.get(), PlusItems.PORK_PATTY.get(), 0.35F, consumer);
     }
@@ -27,6 +29,19 @@ public class PlusSmeltingRecipes {
                 .unlockedBy(name, InventoryChangeTrigger.TriggerInstance.hasItems(ingredient))
                 .save(consumer, namePrefix + "_from_campfire_cooking");
         SimpleCookingRecipeBuilder.smoking(Ingredient.of(ingredient), RecipeCategory.FOOD, result, experience, 100)
+                .unlockedBy(name, InventoryChangeTrigger.TriggerInstance.hasItems(ingredient))
+                .save(consumer, namePrefix + "_from_smoking");
+    }
+
+    private static void foodSmeltingRecipes(String name, ItemLike ingredient, ItemLike result, float experience, int baseCookingTime, Consumer<FinishedRecipe> consumer) {
+        String namePrefix = new ResourceLocation(FarmersPlus.MODID, name).toString();
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(ingredient), RecipeCategory.FOOD, result, experience, baseCookingTime)
+                .unlockedBy(name, InventoryChangeTrigger.TriggerInstance.hasItems(ingredient))
+                .save(consumer);
+        SimpleCookingRecipeBuilder.campfireCooking(Ingredient.of(ingredient), RecipeCategory.FOOD, result, experience, baseCookingTime * 3)
+                .unlockedBy(name, InventoryChangeTrigger.TriggerInstance.hasItems(ingredient))
+                .save(consumer, namePrefix + "_from_campfire_cooking");
+        SimpleCookingRecipeBuilder.smoking(Ingredient.of(ingredient), RecipeCategory.FOOD, result, experience, baseCookingTime / 2)
                 .unlockedBy(name, InventoryChangeTrigger.TriggerInstance.hasItems(ingredient))
                 .save(consumer, namePrefix + "_from_smoking");
     }
