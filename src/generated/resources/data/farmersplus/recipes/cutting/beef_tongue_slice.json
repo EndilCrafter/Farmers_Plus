@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "farmersplus:skinned_beef_tongue"
+    }
+  ],
+  "result": [
+    {
+      "count": 16,
+      "item": "farmersplus:beef_tongue_slice"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

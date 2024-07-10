@@ -1,0 +1,14 @@
+{
+  "type": "farmersplus:milling",
+  "ingredients": [
+    {
+      "item": "farmersplus:beef_tongue_slice"
+    }
+  ],
+  "result": [
+    {
+      "count": 2,
+      "item": "farmersdelight:minced_beef"
+    }
+  ]
+}

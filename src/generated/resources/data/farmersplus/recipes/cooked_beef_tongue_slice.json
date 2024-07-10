@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "farmersplus:beef_tongue_slice"
+  },
+  "result": "farmersplus:cooked_beef_tongue_slice"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "cookingtime": 50,
+  "experience": 0.35,
+  "ingredient": {
+    "item": "farmersplus:beef_tongue_slice"
+  },
+  "result": "farmersplus:cooked_beef_tongue_slice"
+}

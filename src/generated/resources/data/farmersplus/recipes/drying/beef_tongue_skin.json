@@ -1,0 +1,12 @@
+{
+  "type": "farmersplus:drying",
+  "dryingtime": 600,
+  "ingredients": [
+    {
+      "item": "farmersplus:beef_tongue_skin"
+    }
+  ],
+  "result": {
+    "item": "farmersplus:dried_beef_tongue_skin"
+  }
+}

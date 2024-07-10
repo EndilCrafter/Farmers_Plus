@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "cooked_beef_tongue": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersplus:skinned_beef_tongue"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "farmersplus:cooked_beef_tongue_from_smoking"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "cooked_beef_tongue",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "farmersplus:cooked_beef_tongue_from_smoking"
+    ]
+  },
+  "sends_telemetry_event": false
+}

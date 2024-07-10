@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "farmersplus:terracotta_pot"
+  },
+  "cookingtime": 200,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "farmersplus:raw_minced_meats"
+    },
+    {
+      "tag": "forge:pasta/raw_pasta"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "farmersplus:gratin_block"
+  }
+}
